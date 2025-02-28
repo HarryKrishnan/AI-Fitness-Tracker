@@ -1,3 +1,5 @@
+//mock
+
 package mocks
 
 import (
