@@ -17,7 +17,7 @@ import (
 
 var jwtKey = []byte("secret_key")
 
-// Login handler
+// Login handler for User
 func Login(db models.Database) func(w http.ResponseWriter, r *http.Request) {
 	return func(w http.ResponseWriter, r *http.Request) {
 		fmt.Println("reached login")
