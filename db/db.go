@@ -34,7 +34,7 @@ type Table struct {
 
 // Custom table name method
 func (Table) TableName() string {
-	return "user_database" // Custom table name
+	return "user_database" 
 }
 
 func NewMydb() models.Database {
