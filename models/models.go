@@ -103,5 +103,5 @@ type Database interface {
 	GetUserWorkoutDetails42day4mDB(user string, cardio []byte, workout []byte, date string) Workouttodaylist
 	CheckUserDateComboExistinDB(user string, date string) error
 	// Close() error
-	// UpdateUser()
+	
 }
